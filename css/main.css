@@ -1,0 +1,117 @@
+body{
+  background-image: url("https://i.imgur.com/KiNsZda.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  font: inherit;
+  font-size:60px;
+  font-family: helvetica;
+  font-weight: lighter;
+  margin-left: 4%;
+  margin-top:10% !important;
+}
+h3 {
+color: #fff;
+font: inherit;
+font-size:20px;
+font-family: helvetica;
+font-weight: lighter;
+}
+
+#about_head {
+  text-align: center;
+}
+
+#about {
+  font-family: verdana;
+  max-width:50%;
+  margin-left: 15%;
+}
+
+.white {
+  color: white;
+}
+
+.name {
+  margin-left: 39%;
+  margin-top: 10%;
+}
+
+.description {
+  margin-left:45%;
+  margin-top: %;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60%;
+  align-self: center;
+}
+
+.container-full {
+    display: inline-block;
+    cursor: pointer;
+    width:100%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.menu {
+  margin-left: 80%;
+  margin-top:5%;
+}
+.bg {
+  background-image: "images/bg.jpg";
+}
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+
+  .overlay {
+      z-index: 1;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      overflow: auto;
+      top: 0px;
+      left: 0px;
+      background: rgba(0, 0, 0, 0.4); /*can be anything, of course*/
+  }
